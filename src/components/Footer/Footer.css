@@ -1,0 +1,18 @@
+.bgColor{
+    background-color: #F8F9FA;
+}
+.icon-list ul li{
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+}
+.list-style ul li{
+    list-style-type: none;
+    text-align: left;
+}
+.list-style ul li a{
+    text-decoration: none;
+}
+.text-left{
+    text-align: left;
+}

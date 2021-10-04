@@ -1,0 +1,8 @@
+.bgColor{
+    margin-top: 140px;
+    background-color: #edf3f7;
+}
+.upcoming-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

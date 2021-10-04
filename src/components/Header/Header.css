@@ -1,0 +1,44 @@
+.navColor{
+    background-color: #c8fdc0;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.btn-bg:hover{
+    background: #0077B7;
+}
+.nav-link{
+    padding-top: 0px;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-link::after{
+    content: '';
+    width: 0%;
+    height: 1.5px;
+    background: #00000099;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-link:hover::after{
+    width: 100%;
+    color: black;
+}
+
+
+
+.nav-item{
+    color: #00000099;
+    margin-right: 20px;
+    padding-right: 10px;
+    transform: scale(1);
+}
+.blu{
+    color: #0077B7;
+}
+.bluk{
+    color: black;
+}
