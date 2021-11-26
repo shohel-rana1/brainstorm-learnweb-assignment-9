@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light navColor">
             <div className="container">
-                <Link className="navbar-brand" to="/home"><img className="logo" src={logo} alt="" />Brainstorm</Link>
+                <Link className="navbar-brand" to="/home"><img className="logo img-fluid" src={logo} alt="" />Brainstorm</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
